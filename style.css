@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+     /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+        border: 1px solid black;
+        position: relative;
+        left: 550px;
+}
+div{
+    width: 45%;
+    height: 100px;
+    /* border: 1px solid  white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: colorAnimation;  
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;  
+    background-color: white;
+}
+
+@keyframes colorAnimation{
+    from{
+            background-color: white;
+    }
+    to{
+        background-color:black;
+        color: white;
+    }
+}
+
