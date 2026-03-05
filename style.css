@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 .parent{
-     /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
         border: 1px solid black;
         position: relative;
         left: 550px;
@@ -37,5 +33,19 @@ div{
         background-color:black;
         color: white;
     }
+}
+
+
+@media screen and (max-width:1279px)  {
+.parent{
+     border: 1px solid black;
+        position: relative;
+        left: 10px;
+}
+div{
+    width: 100%;
+    height: 100px;
+}
+    
 }
 
